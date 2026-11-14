@@ -199,20 +199,6 @@ input, textarea {
   color: #2B2D42;
 }
 
-/* ---------- Footer: LINEAR gradient (left to right) ---------- */
-footer {
-  background-color: #2B2D42;
-  background: linear-gradient(to right, #2B2D42 0%, #4A6FA5 100%);
-  color: white;
-  text-align: center;
-  padding: 15px;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  height: 70px;
-}
-
 /* ---------- "I am not a robot" checkbox ---------- */
 /* Stop the checkbox from stretching to 90% wide like the text boxes */
 input[type="checkbox"] {
