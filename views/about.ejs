@@ -1,0 +1,34 @@
+<%- include('partials/header') %>
+ 
+<!-- About page -->
+<h1>About me</h1>
+ 
+<div class="row">
+  <!-- left side: my photo -->
+  <div class="col-md-4">
+    <img src="/images/profile.jpg" alt="Photo of Raymond Wong" class="img-fluid rounded">
+  </div>
+ 
+  <!-- right side: some text about me -->
+  <div class="col-md-8">
+    <h2>Hello!</h2>
+    <p>I am a Year 2 student in the Networking and IT Security program. Stepping into the IT realm with Networking is fun for me. You can understand how the digital world works and how devices communicate with each other.</p>
+ 
+    <h3>Some facts about me:</h3>
+    <ul>
+      <li>School: Ontario Tech University</li>
+      <li>Languages: Cantonese, English</li>
+      <li>Current learning: HTML5, CSS3, Python and JavaScript</li>
+      <li>I have a special family member, a cat. She is Burger</li>
+    </ul>
+  </div>
+</div>
+ 
+<!-- my video from Assignment 1 -->
+<h2 class="mt-4">Video introduction</h2>
+<video controls poster="/images/poster.jpg" class="w-100">
+  <source src="/videos/intro.mp4" type="video/mp4">
+  Your browser doesn't support the video tag.
+</video>
+ 
+<%- include('partials/footer') %>
